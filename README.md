@@ -29,3 +29,15 @@ Add state to our context and pass it through the Provider
 
 
 Branch to start `rftr-context-setup`  and check the solution `rftr-state-context`
+
+#STEP 4
+
+Get the JSON data with the photos information from the API and save it to context state
+
+1. As soon as the ContextProvider component renders, get the JSON data from this url: 
+https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master/images.json
+
+2. Save the array of data that comes back to state.
+
+Branch to start `rftr-state-context` and check the solution `rftr-json-fetch`
+
