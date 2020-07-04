@@ -19,3 +19,13 @@ Set up the Context for our app.
 5. Set up your index.js to use the custom context Provider you created. (You can wrap it as a parent of the Router component)
 
 Branch to start `rftr-react-router-setup`  and check the solution `rftr-context-setup`
+
+#STEP 3
+
+Add state to our context and pass it through the Provider
+
+1. Add state to hold the array of all photos our app gets from the API
+2. Pass the array of all photos through the value of the provider so it's available anywhere the app accesses the context
+
+
+Branch to start `rftr-context-setup`  and check the solution `rftr-state-context`
