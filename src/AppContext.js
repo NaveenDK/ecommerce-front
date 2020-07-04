@@ -2,8 +2,9 @@ import React, {useState} from "react"
 const AppContext = React.createContext()
 
 function AppContextProvider(props){
+    const [allPhotos,setAllPhotos] = useState([]);
    return(
-       <AppContext.Provider value="">
+       <AppContext.Provider value={{allPhotos}}>
 
            {props.children}
        </AppContext.Provider>
