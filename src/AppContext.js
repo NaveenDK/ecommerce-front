@@ -3,7 +3,7 @@ const AppContext = React.createContext()
 
 function AppContextProvider(props){
    return(
-       <AppContext.Provider value={}>
+       <AppContext.Provider value="">
 
            {props.children}
        </AppContext.Provider>
