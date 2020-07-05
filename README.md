@@ -44,3 +44,7 @@ Branch to start `rftr-state-context` and check the solution `rftr-json-fetch`
 # Step 5
 
 Using the data in context state, map over it in the Photos page and display the images.
+
+Branch to start `rftr-json-fetch` and check the solution
+`rftr-pics-mapped` 
+

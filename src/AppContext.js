@@ -13,7 +13,7 @@ function AppContextProvider(props){
 
     },[])
   
-     console.log(allPhotos)
+     //console.log(allPhotos)
 
     return(
        <AppContext.Provider value={{allPhotos}}>
