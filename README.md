@@ -1,6 +1,6 @@
 A frontend app with react - ecommerce - cart -add to cart and checkout!
 
-#STEP 1 
+# STEP 1 
 
 1)  Setup react-router for the app
 2) The header will link to "/" route which shuold display photos component
@@ -8,7 +8,7 @@ A frontend app with react - ecommerce - cart -add to cart and checkout!
 
 Branch to start `b4-react-router-setup` and check the solution `rftr-react-router-setup`    
 
-#STEP 2
+# STEP 2
 
 Set up the Context for our app.
 
@@ -20,7 +20,7 @@ Set up the Context for our app.
 
 Branch to start `rftr-react-router-setup`  and check the solution `rftr-context-setup`
 
-#STEP 3
+# STEP 3
 
 Add state to our context and pass it through the Provider
 
@@ -30,7 +30,7 @@ Add state to our context and pass it through the Provider
 
 Branch to start `rftr-context-setup`  and check the solution `rftr-state-context`
 
-#STEP 4
+# STEP 4
 
 Get the JSON data with the photos information from the API and save it to context state
 
@@ -41,3 +41,6 @@ https://raw.githubusercontent.com/bobziroll/scrimba-react-bootcamp-images/master
 
 Branch to start `rftr-state-context` and check the solution `rftr-json-fetch`
 
+# Step 5
+
+Using the data in context state, map over it in the Photos page and display the images.
