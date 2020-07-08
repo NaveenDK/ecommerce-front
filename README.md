@@ -59,4 +59,4 @@ On the Image component, track the hover state
 
 
 Branch to start `rftr-pics-mapped` and check the solution
-`rftr-pics-mapped` 
+`rftr-hovered` 
