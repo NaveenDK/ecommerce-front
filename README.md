@@ -57,3 +57,6 @@ On the Image component, track the hover state
 3. When the mouse leaves the Image's div, set "hovered" to false
 4. Log "hovered" to the console so you know it's changing successfully.
 
+
+Branch to start `rftr-pics-mapped` and check the solution
+`rftr-pics-mapped` 
