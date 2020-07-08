@@ -60,3 +60,17 @@ On the Image component, track the hover state
 
 Branch to start `rftr-pics-mapped` and check the solution
 `rftr-hovered` 
+
+# Step 7
+
+
+Conditionally render the heart and plus icons when an Image component is being hovered on
+
+1. Icon to render for the heart:
+<i className="ri-heart-line favorite"></i>
+
+2. Icon to render for the plus:
+<i className="ri-add-circle-line cart"></i>
+
+Branch to start `rftr-hovered` and check the solution
+`rftr-adding-icons-hovered` 
