@@ -13,6 +13,8 @@ function AppContextProvider(props){
 
     },[])
   
+ 
+
      //console.log(allPhotos)
      function toggleFavorite(id){
         let updatedArr = allPhotos.map(photo =>{
