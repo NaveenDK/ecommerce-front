@@ -113,3 +113,5 @@ Add propTypes to the Image component
     a. Hint: Specifying the properties of an object is called and object's "shape"
 
 https://reactjs.org/docs/typechecking-with-proptypes.html#proptypes
+
+Branch to start `display-favs` , and check the solution `add-image-to-cart`
