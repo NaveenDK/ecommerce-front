@@ -142,3 +142,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://stackoverflow.com/a/8217584
 
 Branch to start `rftr-add-to-cart` , and check the solution `rftr-fill-cart`
+
+# Step 13
+
+Make it so clicking the little shopping cart icon on the image removes the item from the cart

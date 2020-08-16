@@ -16,15 +16,22 @@ function Image({className, img}) {
               toggleFavorite(img.id)}></i>
         }
     }
+    function onClickHandler()
+    {console.log("executed the onclick handler")
+        return <i className="ri-add-circle-line cart" onClick={()=>addToCart(img)}></i>
+        //console.log("executed the onclick handler")
+    }
     function cartIcon(){
         // if (cartItems.filter(function(e) { return e.id === img.id; }).length > 0) {
         //     return <i className="ri-shopping-cart-fill cart" onClick={()=>addToCart(img)}></i>
         //   }
         const alreadyInCart = cartItems.some(item => item.id === img.id)
         if(alreadyInCart) {
-            return <i className="ri-shopping-cart-fill cart"></i>
+            console.log("test alreadyCart");
+            return <i className="ri-shopping-cart-fill cart" onClick={()=>onClickHandler}></i>
         }
           else if(hovered) {
+            console.log("testaddtoCart hovered if condition");
             return <i className="ri-add-circle-line cart" onClick={()=>addToCart(img)}></i>
         }
     }
