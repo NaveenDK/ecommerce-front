@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 function Image({className, img}) {
     const [ hovered,setHovered] = useState(false)
     //const [isFavorited,setIsFavorited] = useState(false)
-    const {toggleFavorite,addToCart,cartItems} = useContext(AppContext)
+    const {toggleFavorite,addToCart,cartItems,removeFromCart} = useContext(AppContext)
 
     function heartIcon() {
         if(img.isFavorite) {
@@ -16,22 +16,20 @@ function Image({className, img}) {
               toggleFavorite(img.id)}></i>
         }
     }
-    function onClickHandler()
-    {console.log("executed the onclick handler")
-        return <i className="ri-add-circle-line cart" onClick={()=>addToCart(img)}></i>
-        //console.log("executed the onclick handler")
-    }
+   
     function cartIcon(){
         // if (cartItems.filter(function(e) { return e.id === img.id; }).length > 0) {
         //     return <i className="ri-shopping-cart-fill cart" onClick={()=>addToCart(img)}></i>
         //   }
         const alreadyInCart = cartItems.some(item => item.id === img.id)
+
         if(alreadyInCart) {
-            console.log("test alreadyCart");
-            return <i className="ri-shopping-cart-fill cart" onClick={()=>onClickHandler}></i>
+         
+            return <i className="ri-shopping-cart-fill cart" onClick={() => 
+                removeFromCart(img.id)} ></i>
         }
           else if(hovered) {
-            console.log("testaddtoCart hovered if condition");
+           
             return <i className="ri-add-circle-line cart" onClick={()=>addToCart(img)}></i>
         }
     }

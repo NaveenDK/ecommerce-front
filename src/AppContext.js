@@ -17,6 +17,10 @@ function AppContextProvider(props){
     function addToCart(newItem){
         setCartItems(prevItems=>[...prevItems,newItem])
     }
+    function removeFromCart(id) {
+        setCartItems(prevItems => prevItems.filter(item => item.id !== id))
+    }
+    
     console.log(cartItems)
      //console.log(allPhotos)
      function toggleFavorite(id){
@@ -35,7 +39,7 @@ function AppContextProvider(props){
      }
 
     return(
-       <AppContext.Provider value={{allPhotos, toggleFavorite,addToCart,cartItems}}>
+       <AppContext.Provider value={{allPhotos, toggleFavorite,addToCart,cartItems,removeFromCart}}>
 
            {props.children}
        </AppContext.Provider>
