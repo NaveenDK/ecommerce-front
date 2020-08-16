@@ -14,24 +14,10 @@ function AppContextProvider(props){
 
     },[])
   
-     function addCartItems(id){
-
-        let updatedCartItems = allPhotos.map(photo=>{
-            if(photo.id===id){
-                cartItems.push(photo)
-                return {
-                    cartItems
-                   
-                }
-                console.log("Before the end of if "+cartItems.length)
-            }
-            console.log("After  the end of if "+cartItems.length)
-                 return cartItems
-        })
-        console.log("After  the end of map "+cartItems.length)
-        setCartItems(updatedCartItems)
-        console.log(cartItems.length);
-     }
+    function addToCart(newItem){
+        setCartItems(prevItems=>[...prevItems,newItem])
+    }
+    console.log(cartItems)
      //console.log(allPhotos)
      function toggleFavorite(id){
         let updatedArr = allPhotos.map(photo =>{
@@ -49,7 +35,7 @@ function AppContextProvider(props){
      }
 
     return(
-       <AppContext.Provider value={{allPhotos, toggleFavorite,addCartItems}}>
+       <AppContext.Provider value={{allPhotos, toggleFavorite,addToCart}}>
 
            {props.children}
        </AppContext.Provider>

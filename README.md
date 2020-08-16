@@ -126,4 +126,4 @@ Setup context to manage items in an array called `cartItems`. This will be an ar
 3. Make it so clicking the plus icon on the image adds the item to the cart. (Console.log the cart items array to see that it's working)
 
  
- Branch to start `add-image-to-cart` , and check the solution `rftr-cart-items`
+ Branch to start `add-image-to-cart` , and check the solution `rftr-add-to-cart`
