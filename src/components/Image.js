@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 function Image({className, img}) {
     const [ hovered,setHovered] = useState(false)
     //const [isFavorited,setIsFavorited] = useState(false)
-    const {toggleFavorite} = useContext(AppContext)
+    const {toggleFavorite,addCartItems} = useContext(AppContext)
 
     function heartIcon() {
         if(img.isFavorite) {
@@ -20,7 +20,7 @@ function Image({className, img}) {
 
     //const heartIcon =  hovered &&   <i className="ri-heart-line favorite" 
     //onClick={() => toggleFavorite(img.id)}></i>
-    const cartIcon =  hovered &&   <i className="ri-add-circle-line cart"></i> 
+    const cartIcon =  hovered &&   <i className="ri-add-circle-line cart" onClick={()=>addCartItems(img.id)}></i> 
 
     return (
         <div className={`${className} image-container`}
