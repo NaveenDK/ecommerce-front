@@ -167,3 +167,16 @@ Calculate the total cost of the items in the cart and display it on the Cart pag
 `<number>.toLocaleString("en-US", {style: "currency", currency: "USD"})`
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString
+
+Branch to start `start-at-16` , and check the solution `rftr-cart-page-setup`
+
+# STEP 17
+
+
+Let our user place their order!
+
+Clicking the "Place Order" button should:
+1. Change the text to "Ordering..."
+2. Timeout for 3 seconds (to simulate an order being placed)
+3. Log "Order placed!" to the console
+4. Empty out the cart
