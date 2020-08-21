@@ -146,3 +146,9 @@ Branch to start `rftr-add-to-cart` , and check the solution `rftr-fill-cart`
 # Step 13
 
 Make it so clicking the little shopping cart icon on the image removes the item from the cart
+
+Branch to start `rftr-fill-cart` , and check the solution `rftr-cart-page-setup`
+
+# Step 14
+
+Cart Page Setup 
