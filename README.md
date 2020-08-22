@@ -202,4 +202,4 @@ Branch to start `after-16` , and check the solution `minor-ux-fix-done`
 Custom Hook - hover logic
 
 
-Branch to start `after-16` , and check the solution `minor-ux-fix-done`
+Branch to start `after-16` , and check the solution `hover-hook-done`
