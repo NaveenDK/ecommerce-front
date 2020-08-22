@@ -196,3 +196,10 @@ Empty trash icon to use when NOT hovering:
 <i className="ri-delete-bin-line"></i>
 
 Branch to start `after-16` , and check the solution `minor-ux-fix-done`
+
+# STEP 19 
+
+Custom Hook - hover logic
+
+
+Branch to start `after-16` , and check the solution `minor-ux-fix-done`
