@@ -168,7 +168,7 @@ Calculate the total cost of the items in the cart and display it on the Cart pag
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString
 
-Branch to start `start-at-16` , and check the solution `rftr-cart-page-setup`
+Branch to start `start-at-16` , and check the solution `after-16`
 
 # STEP 17
 
@@ -180,3 +180,5 @@ Clicking the "Place Order" button should:
 2. Timeout for 3 seconds (to simulate an order being placed)
 3. Log "Order placed!" to the console
 4. Empty out the cart
+
+Branch to start `after-16` , and check the solution `place-order-done`
