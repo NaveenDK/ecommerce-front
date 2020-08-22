@@ -24,9 +24,10 @@ function placeOrder(){
             <h1>Check out</h1>
             {cartItemElements}
             <p className="total-cost">Total: {totalCostDisplay}</p>
+            { cartItems.length>0? 
             <div className="order-button">
            <button onClick={()=>placeOrder()} > {btnText}</button>
-            </div>
+            </div>: <p> No items</p>}
         </main>
     )
 }
